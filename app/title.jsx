@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 
 class World extends React.Component {
   render() {
-    return <h1>World</h1>
+    return <h1>Iris</h1>
   }
 }
 
-ReactDOM.render(<World/>, document.getElementById('hello'));
+ReactDOM.render(<World/>, document.getElementById('title'));

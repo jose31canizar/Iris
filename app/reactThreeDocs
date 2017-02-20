@@ -1,0 +1,6 @@
+// var cubeA = new THREE.Mesh( boxgeometry, boxmaterial );
+// cubeA.position.set( 100, 100, 0 );
+
+
+<ReactTHREE.AmbientLight color={new THREE.Color(this.state.palette.brown)} intensity={intensity} target={ambientTarget} />
+<ReactTHREE.HemisphereLight skyColor={this.state.palette.brown} groundColor={0x111111} intensity={intensity}/>
